@@ -1,0 +1,9 @@
+								NUMEROS ALEATORIOS
+____________________________________________________________________________________
+1. GENERACIÓN DE NÚMEROS ALEATORIOS CON Y SIN DECIMALES
+
+Para generar valores aleatorios utilizamos Math.random(). Funcion que genera
+un número con decimales de tipo double en el intervale [0 - 1], es decir
+que genera un número mayor o igual que 0 y menor que 1. Tambien podemos generar palabras
+aleatorias
+
