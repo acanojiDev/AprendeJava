@@ -6,8 +6,10 @@ public class Ejercicio9 {
 		int contador = 0;
 		do {
 			numeroGenerado = (int)((Math.random()*100) +  1 );
-			System.out.print(numeroGenerado +  " ");
-			contador++;
+			if(numeroGenerado % 2 == 0){
+				System.out.print(numeroGenerado +  " ");
+				contador++;
+			}
 		} while (numeroGenerado != 24);
 		System.out.println();
 		System.out.printf("Se han generado %d números.",contador);
